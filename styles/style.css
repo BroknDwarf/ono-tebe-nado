@@ -32,8 +32,7 @@
 .aligned-text__right {
     text-align: right;
 }
-
-/* .overlay {  */
+.overlay { 
 position: absolute;
 top: 0;
 left: 0;
@@ -42,7 +41,7 @@ width: 100%;
 height: 100%;
 background: rgba(0, 0, 0, 0.6);
 
-/* } */
+ } 
 .address {
     max-width: 238px;
     font-weight: 400;
@@ -107,7 +106,7 @@ background: rgba(0, 0, 0, 0.6);
     display: block;
     justify-self: center;
     width: 148px;
-    height: 148px;
+    height: 105px;
     transition: transform 0.3s ease;
 }
 
@@ -121,6 +120,7 @@ background: rgba(0, 0, 0, 0.6);
 }
 
 .header__address {
+    display: block;
     justify-self: end;
 }
 
@@ -171,6 +171,9 @@ background: rgba(0, 0, 0, 0.6);
     text-align: center;
     text-transform: uppercase;
     word-spacing: 18px;
+}
+.lots {
+    padding: 179px 50px 50px 50px;
 }
 
 .lots__heading {
@@ -281,7 +284,7 @@ background: rgba(0, 0, 0, 0.6);
     height: 240px;
     margin: 0 94px;
     border-radius: 50%;
-    background: #000;
+    background: #000000;
 }
 
 .about__logo-image {
