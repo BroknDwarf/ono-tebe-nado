@@ -74,6 +74,7 @@
   grid-template-columns: 2fr auto 2fr;
   padding: 90px 50px 91px;
   align-items: center;
+  pointer-events: none;
 }
 .header_link {
   font-weight: 400;
@@ -84,6 +85,7 @@
 }
 .header__links-list-item_no-bullit {
   list-style: none;
+  text-decoration: none;
 }
 .header__link:hover {
   text-underline-offset: 7px;
@@ -93,6 +95,7 @@
   display: flex;
   align-items: center;
   gap: 33px;
+  display: flex;
 }
 
 .header_links-list-item {
@@ -136,12 +139,12 @@
 }
 
 .cover {
-  min-height: 757px;
   position: relative;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 0;
 }
 .cover__title {
   position: relative;
@@ -255,6 +258,7 @@
   line-height: 120%;
   text-decoration: underline;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .card__text {
@@ -262,6 +266,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
+  color: #fff;
 }
 
 .about {
@@ -300,12 +305,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 61px 52px 90px;
+  padding: 90px 52px 90px;
+  pointer-events: none;
 }
 .footer__address-link {
   text-underline-offset: 5px;
@@ -320,6 +328,8 @@
   text-align: center;
   gap: 33px;
   list-style: none;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .footer__menu-link {
